@@ -12,6 +12,7 @@
     width: 100%;
 }
 .titleNews{
+    /* text-transform: uppercase; */
     font-size: 4.5rem;
     color: var(--Main-color);
     line-height: 3.5rem;

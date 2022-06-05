@@ -1,0 +1,32 @@
+/* PC */
+@media only screen and (min-width: 1224px) {
+    
+}
+
+
+@media only screen and (max-width: 1239px) {
+   
+}
+
+ 
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    
+    
+}
+
+
+@media only screen and (max-width: 740px){
+    .visionMision__box{
+        padding: 0 .8rem;
+    }
+    .visionMision__List{
+        margin: 0 0rem;
+        justify-content: space-between;
+        
+    }   
+    .visionMision__Item{
+        margin: 0 -0rem;
+        margin-bottom: 2rem;
+    }
+    
+}

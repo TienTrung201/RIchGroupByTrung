@@ -1,0 +1,113 @@
+
+
+.continer__Imfomation{
+    /* position: relative; */
+    padding-bottom: 10rem;
+}
+.continer__Imfomation{
+    /* position: absolute; */
+
+    background: url("../img/gioithieu/backGioithpng-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    background-position: top right;
+}
+.continer__mainContent__background{
+    
+}
+
+.continer__mainContent--top{
+   
+}
+.continer__mainContent--triangle{
+}
+.continer__mainContent--title{
+
+}
+.continer__mainContent__box{
+
+}
+.continer__mainContent__text{
+    padding-top: 10rem;
+}
+.continer__mainContent--text{
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    text-align: justify;
+}
+.infomation__contentYear{
+    padding-left: 4rem;
+}
+.continer__mainContent--text{
+
+}
+
+
+/* end giới thiệu */
+
+.Continer{
+      
+}
+.continer__VisionMission{
+    padding-top: 6rem;
+    padding-bottom: 10rem;
+    background: url("../img/gioithieu/bakgroundChitie.png") top center/ cover no-repeat;
+}
+.visionMision__box{
+
+}
+.titleNews{
+
+}
+.visionMision__content{
+    padding-top: 3.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #1d1d1d;
+    font-weight: 600;
+    line-height: 3rem;
+    max-width: 110rem;
+    margin: auto;
+    margin-bottom: 7rem;
+
+}
+.visionMision__List{
+    margin: 0 3rem;
+    justify-content: space-between;
+    
+}   
+.visionMision__Item{
+    margin: 0 -3rem;
+    
+}
+.visionMision__img{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.visionMision--img{
+    width: 100%;
+}
+.visionMision--title{
+    margin-top: 3rem;
+    font-size: 2rem;
+    line-height: 1.8rem;
+    color: var(--Main-color);
+    margin-bottom: 2rem;
+}
+.visionMision--ContentTitle{
+    max-width: 80%;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #1d1d1d;
+}
+.visionMision__Item{
+
+}
+
+
