@@ -1,0 +1,53 @@
+.headerBanner{
+    background: url("../img/headerFooter/background.png") top center/ cover no-repeat;
+    height: 26.5rem;
+    padding-top: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.headerBanner{
+    padding-top: 8.5rem;
+    padding-bottom: 9rem;
+    /* padding-left: 25.5rem; */
+}
+.bannerTitle{
+    font-size: 4.5rem;
+    color: #f6f6f6;
+    line-height: 4.5rem;
+    text-transform: uppercase;
+}
+.bannerContent{
+    font-size: 2.5rem;
+    color: #f6f6f6;
+    margin-top: 3.4rem;
+}
+.bannerContent  span{
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+@media only screen and (max-width: 740px){
+    .headerBanner{
+        height: 16.5rem;
+        padding: 5.5rem 0;
+        padding-left: .8rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }.bannerTitle{
+        font-size: 2.5rem;
+        color: #f6f6f6;
+        line-height: 2.5rem;
+        text-transform: uppercase;
+        
+    }
+    .bannerContent{
+        font-size: 1.5rem;
+        color: #f6f6f6;
+        margin-top: 2rem;
+    }
+
+}

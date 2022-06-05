@@ -1,0 +1,220 @@
+body{
+    background-color: #f6f6f6;
+}
+.mainContiner{
+    flex-wrap: wrap-reverse;
+}
+.continerNews{
+    
+}
+.continerDocument{
+}
+.TitleContiner{
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    text-transform: uppercase;
+    color: #3a3a3a;
+    margin-bottom: 2.5rem;
+}
+.TitleContent{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #3a3a3a;
+    margin-bottom: 3rem;
+    text-align: justify;
+}
+.banerContiner{
+    background: url("../img/chitiettintuc/banner.png") top center/ cover no-repeat;
+    height: 55rem;
+    margin-bottom: 3rem;
+}
+.netWorkContiner{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.networkContent{
+    display: flex;
+    /* margin-bottom: 2rem; */
+}
+.facebookButton{
+    height: 2.5rem;
+    padding: .5rem .8rem;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 2.9rem;
+    background-image: linear-gradient(#4d68b9, #3e57a2);
+    font-weight: 600;
+    border: none;
+    margin-right: .5rem;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: .3rem;
+    padding: 0 .8rem;
+} 
+.facebookButton:active{
+    background-image: linear-gradient(#3e57a2, #4d68b9);
+}  
+.icon--like{
+    margin-right: .1rem;
+}
+.facebookCountLike{
+    margin-left: .5rem;
+    font-size: 1.4rem;
+    color: #6f7684;
+    height: 100%;
+    /* padding: 0 .8rem 0 .8rem; */
+    padding-right: .8rem;
+    padding-left: 1rem;
+    padding-bottom: .0rem;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    background: url("../img/chitiettintuc/fb.png") top center/ cover no-repeat;
+}
+.tweetCountLike{
+    margin-left: .5rem;
+    font-size: 1.4rem;
+    height: 104%;
+    /* padding: 0 .8rem 0 .8rem; */
+    padding-right: .8rem;
+    padding-left: 1rem;
+    padding-bottom: .2rem;
+    display: flex;
+    align-items: center;
+    color: #515151;
+    background: url("../img/chitiettintuc/tw.png") top center/ cover no-repeat;
+
+}
+.tweetButton{
+    color: #333333;
+    background-image: linear-gradient( #f7f7f7, #e0e0e0);
+    border: solid .1rem #e0e0e0 ;
+    font-weight: 600;
+    padding-left: .4rem;
+    padding-right: .7rem;
+    cursor: pointer;
+    transition: .3rem;
+    border-radius: .3rem;
+}
+.tweetButton:active{
+    background-image: linear-gradient( #e0e0e0,#f7f7f7) 
+    
+}
+.icon--tweet{
+    color: #01acee;
+}
+.fa-brands{
+
+}
+
+.networkTime{
+    display: flex;
+    align-items: center;
+}
+.timeCalendar{
+    margin-right: 1rem;
+}
+.timeDays{
+    font-size: 1.5rem;
+    color: #959595;
+    position: relative;
+}
+.timeDays:nth-child(3){
+    margin-left: 1.2rem;
+}
+.timeDays:nth-child(2)::after{
+    content: "";
+    width: .1rem;
+    height: 1.4rem;
+    position: absolute;
+    bottom: 0;
+    right: -.7rem;
+    background-color:#959595 ;
+}
+
+
+
+.continerContact{
+    padding-top: 4.7rem;
+}
+.contacts{
+    width: 37.5%;
+}
+.contactHotline{
+    display: flex;
+    background-color: var(--Main-color);
+    color: var(--white-color);
+    text-transform: uppercase;
+    align-items: center;
+    /* justify-content: center; */
+    height: 7.7rem;
+
+    position: relative;
+    padding-left: 2.8rem;
+    margin-bottom: 2rem;
+    padding-right: .6rem;
+}
+.contactHotline:nth-child(3){
+    margin-bottom: 0;
+}
+.hotlinePerson{
+    /* position: absolute; */
+}
+.hotlineTitle{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-left: 2rem;
+}
+.contactNews{
+    width: 62.5%;
+    padding-left: 3.3rem;
+    position: relative;
+}
+.newsMore{
+    font-size: 1.9rem;
+    color: #3a3a3a;
+    /* line-height: 2.8rem; */
+    margin-bottom: 2.5rem;
+}
+.boxNew{
+    margin: 0 1.5rem;
+    justify-content: space-between;
+}
+.newsContentCT{
+    margin: 0 -1.5rem;
+    background-color: #e8e8e8;
+
+}
+.newsImgCT{
+    width: 100%;
+}
+.newsContent-p{
+    /* height: 5rem; */
+    /* background-color: #e8e8e8; */
+    font-weight: 600;
+    padding: .5rem 1.3rem .8rem 1.3rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+.newsAll{
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.newAllText{
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #3a3a3a;
+}
+
+
+
+.sendQuestion{
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+}

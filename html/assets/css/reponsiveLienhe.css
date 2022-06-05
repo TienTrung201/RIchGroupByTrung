@@ -1,0 +1,66 @@
+/* PC */
+@media only screen and (min-width: 1224px) {
+    
+}
+
+
+@media only screen and (max-width: 1223px) {
+    
+
+    
+}
+
+ 
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .Continer{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .ContinerImfomation{
+        flex-direction: column;
+    }
+    .ContinerBanner{
+        margin-top: 2rem;
+        margin-bottom: 4.5rem;
+        height: 35rem;
+   }
+   .infomationRight{
+        /* margin-bottom: 4rem; */
+    }
+}
+
+
+@media only screen and (max-width: 740px){
+    .continerMap {
+        padding: 0 .8rem;
+    }
+    .sendRichTitle{
+        padding-bottom: 2rem;
+    }
+    .Continer{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .titleContiner {
+        font-size: 2rem;
+    }
+    .ContinerImfomation{
+        flex-direction: column;
+        padding: 0 .8rem;
+    }
+    .formName__input {
+        min-width: 7rem;
+    }
+    .ContinerBanner{
+        margin-top: 2rem;
+        margin-bottom: 4.5rem;
+        height: 35rem;
+   }
+   .infomationRight{
+        /* margin-bottom: 4rem; */
+    }
+    .inputNumber.inputType {
+        font-size: 1.2rem;
+    }
+    
+}

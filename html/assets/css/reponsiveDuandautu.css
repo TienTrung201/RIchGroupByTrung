@@ -1,0 +1,67 @@
+
+/* PC */
+@media only screen and (min-width: 1224px) {
+    
+}
+
+
+@media only screen and (max-width: 1239px) {
+
+}
+
+ 
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .Continer{
+        padding: 5rem .8rem 5rem .8rem;
+    }
+    .continer__mainContent--title{
+        font-size: 3rem;
+    }
+    .continer__box{
+        padding-top: 6rem;
+        padding-bottom: 0rem;
+        justify-content: space-between;
+        margin: 0 1rem;
+    }
+    .continer__box--content{
+        padding: 3rem 2rem 2.5rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--white-color);
+        margin: 0 -1rem;
+        margin-bottom: 2rem;
+    }.BoxImg__continer{
+        width: 100%;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 740px){
+    .Continer{
+        padding: 5rem .8rem 5rem .8rem;
+    }
+    .continer__mainContent--title{
+        font-size: 3rem;
+    }
+    .continer__box{
+        padding-top: 6rem;
+        padding-bottom: 0rem;
+        justify-content: space-between;
+        margin: 0 0rem;
+    }
+    .continer__box--content{
+        padding: 3rem 2rem 2.5rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--white-color);
+        margin: 0 0rem;
+        margin-bottom: 2rem;
+    }.BoxImg__continer{
+        width: 100%;
+    }
+
+}

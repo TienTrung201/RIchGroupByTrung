@@ -1,0 +1,546 @@
+:root {
+    --white-color: #fff;
+    --Main-color: #1670c5;
+    --borderColorTitle:#00aeef;
+    --Main-colorHover: #6db2f3;
+    --text-color: #333;
+    --title-color:#ff7e00;
+    --text-bannerColor:#162432;
+    --text-footerColor:#191201;
+    --nav-height: 10rem;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: fontMain;
+    src: url(../fontUTM/UTM\ Swiss\ Condensed.ttf);
+}
+
+@keyframes come_out {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+* {
+    /* box-sizing: inherit; */
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: fontMain;
+    box-sizing: border-box;
+}
+
+
+/* repontsive */
+
+.grid {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+
+.grid.wide {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.row-gutter  {
+    display: flex;
+    /* dcac item tu dong nam ngang */
+    flex-wrap: wrap;
+    /* d  khi chieu ngang columns vuot qua row-> tu cuong hang*/
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-gutter .col-gutter {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.row .col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.M-0 {
+    display: none;
+}
+
+.M-1 {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+}
+
+.M-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+}
+
+.M-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.M-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.M-5 {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+}
+
+.M-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.M-7 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+}
+
+.M-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}
+
+.M-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.M-10 {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+}
+
+.M-11 {
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+}
+
+.M-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.M-o-1 {
+    margin-left: 8.33333%;
+}
+
+.M-o-2 {
+    margin-left: 16.66667%;
+}
+
+.M-o-3 {
+    margin-left: 25%;
+}
+
+.M-o-4 {
+    margin-left: 33.333333%;
+}
+
+.M-o-5 {
+    margin-left: 41.66667%;
+}
+
+.M-o-6 {
+    margin-left: 50%;
+}
+
+.M-o-7 {
+    margin-left: 58.33333%;
+}
+
+.M-o-8 {
+    margin-left: 66.66667%;
+}
+
+.M-o-9 {
+    margin-left: 75%;
+}
+
+.M-o-10 {
+    margin-left: 83.33333%;
+}
+
+.M-o-11 {
+    margin-left: 91.66667%;
+}
+
+
+/* Tablet - px low resolution */
+
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .wide {
+        width: 664px;
+    }
+}
+
+
+/* Tablet */
+
+@media only screen and (min-width: 740px) {
+    .row-gutter {
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .col-gutter {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .T-0 {
+        display: none;
+    }
+    .T-1,
+    .T-2,
+    .T-3,
+    .T-4,
+    .T-5,
+    .T-6,
+    .T-7,
+    .T-8,
+    .T-9,
+    .T-10,
+    .T-11,
+    .T-12 {
+        display: block;
+    }
+    .T-1 {
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+    .T-2 {
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    .T-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .T-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .T-5 {
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+    .T-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .T-7 {
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+    .T-8 {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+    .T-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .T-10 {
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+    .T-11 {
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+    .T-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .T-o-1 {
+        margin-left: 8.33333%;
+    }
+    .T-o-2 {
+        margin-left: 16.66667%;
+    }
+    .T-o-3 {
+        margin-left: 25%;
+    }
+    .T-o-4 {
+        margin-left: 33.333333%;
+    }
+    .T-o-5 {
+        margin-left: 41.66667%;
+    }
+    .T-o-6 {
+        margin-left: 50%;
+    }
+    .T-o-7 {
+        margin-left: 58.33333%;
+    }
+    .T-o-8 {
+        margin-left: 66.66667%;
+    }
+    .T-o-9 {
+        margin-left: 75%;
+    }
+    .T-o-10 {
+        margin-left: 83.33333%;
+    }
+    .T-o-11 {
+        margin-left: 91.66667%;
+    }
+}
+
+
+/* Pc low > (>1113px)*/
+
+@media only screen and (min-width: 1113px) {
+    .row-gutter {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+    .col-gutter {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .PC-0 {
+        display: none;
+    }
+    .PC-1,
+    .PC-2,
+    .PC-3,
+    .PC-4,
+    .PC-5,
+    .PC-6,
+    .PC-7,
+    .PC-8,
+    .PC-9,
+    .PC-10,
+    .PC-11,
+    .PC-12,
+    .PC-20 {
+        display: block;
+    }
+    .PC-20{
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .PC-1 {
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+    .PC-2 {
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    .PC-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .PC-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .PC-5 {
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+    .PC-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .PC-7 {
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+    .PC-8 {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+    .PC-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .PC-10 {
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+    .PC-11 {
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+    .PC-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .PC-o-1 {
+        margin-left: 8.33333%;
+    }
+    .PC-o-2 {
+        margin-left: 16.66667%;
+    }
+    .PC-o-3 {
+        margin-left: 25%;
+    }
+    .PC-o-4 {
+        margin-left: 33.333333%;
+    }
+    .PC-o-5 {
+        margin-left: 41.66667%;
+    }
+    .PC-o-6 {
+        margin-left: 50%;
+    }
+    .PC-o-7 {
+        margin-left: 58.33333%;
+    }
+    .PC-o-8 {
+        margin-left: 66.66667%;
+    }
+    .PC-o-9 {
+        margin-left: 75%;
+    }
+    .PC-o-10 {
+        margin-left: 83.33333%;
+    }
+    .PC-o-11 {
+        margin-left: 91.66667%;
+    }
+}
+
+
+/* px low resolution -> 1039px kéo nhẹ là tự đổi*/
+/* @media only screen and (min-width: 1024px) and (max-width: 1239px) { có thể để màn này */
+
+@media only screen and (min-width: 1024px) and (max-width: 1239px) {
+    .wide {
+        width: 984px;
+    }
+    .wide .row-gutter {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+    .col-gutter {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .wide .PC-0 {
+        display: none;
+    }
+    .wide .PC-1,
+    .wide .PC-2,
+    .wide .PC-3,
+    .wide .PC-4,
+    .wide .PC-5,
+    .wide .PC-6,
+    .wide .PC-7,
+    .wide .PC-8,
+    .wide .PC-9,
+    .wide .PC-10,
+    .wide .PC-11,
+    .wide .PC-12 {
+        display: block;
+    }
+    .wide .PC-1 {
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+    .wide .PC-2 {
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    .wide .PC-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .wide .PC-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .wide .PC-5 {
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+    .wide .PC-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .wide .PC-7 {
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+    .wide .PC-8 {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+    .wide .PC-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .wide .PC-10 {
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+    .wide .PC-11 {
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+    .wide .PC-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .wide .PC-o-1 {
+        margin-left: 8.33333%;
+    }
+    .wide .PC-o-2 {
+        margin-left: 16.66667%;
+    }
+    .wide .PC-o-3 {
+        margin-left: 25%;
+    }
+    .wide .PC-o-4 {
+        margin-left: 33.333333%;
+    }
+    .wide .PC-o-5 {
+        margin-left: 41.66667%;
+    }
+    .wide .PC-o-6 {
+        margin-left: 50%;
+    }
+    .wide .PC-o-7 {
+        margin-left: 58.33333%;
+    }
+    .wide .PC-o-8 {
+        margin-left: 66.66667%;
+    }
+    .wide .PC-o-9 {
+        margin-left: 75%;
+    }
+    .wide .PC-o-10 {
+        margin-left: 83.33333%;
+    }
+    .wide .PC-o-11 {
+        margin-left: 91.66667%;
+    }
+}
+
+
+/* dung cho man hinh do phan giai thap */

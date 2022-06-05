@@ -1,0 +1,516 @@
+.homeContainer{
+    padding-top: 13rem;
+    /* display: flex;
+    flex-direction: column; */
+    background-color: #f6f6f6;
+}
+.ContainerIntroduce{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleContiner{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--Main-color);
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+    
+}
+.titleContiner h2{
+    font-size: 4.5rem;
+    padding: 0 2.5rem;
+    position: relative;
+    line-height: 4rem;
+    /* border-bottom: solid .4rem var(--borderColorTitle); */
+}
+.titleContiner h2::after{
+    content: "";
+    width: 100%;
+    height: .4rem;
+    background-color: var(--borderColorTitle);
+    position: absolute;
+    top: 135%;
+    right: 0;
+    left: 0;
+}
+.titleLogo{
+    width: 10rem;
+    height: 9rem;
+}
+.titleLogo{
+    
+}
+.introduceImg{
+    width: 100%;
+    background: url("../img/trangchu/introduce.png");
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    /* height: 57.1rem; */
+}
+
+.introduceBox{
+    width: 100%;
+    /* z-index: 2; */
+    position: relative;
+}
+.introduceBox::after{
+    content: "";
+    width: 50%;
+    background: url("../img/trangchu/introduce.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.introduceBackground2{
+    background-color: var(--white-color);
+    width: 100%;
+}
+.introduceBackground1{
+    background-color: #e6e6e6;
+    width: 100%;
+
+}
+.introduceContent--rightVision,
+.introduceContent--rightMission{
+    padding: 3.5rem 0rem;
+    padding-left: 18rem;
+    display: flex;
+    justify-content: end;
+}
+.rightMission50Persent,
+.rightVision50Persent{
+    width: 50%;
+}
+
+.introduceContent--title{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    /* line-height: 3.8rem; */
+    margin-bottom:3rem ;
+    color: #1d1d1d;
+}
+.visionContent{
+
+}
+.visoncontentText{
+    padding-left: 3rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.visionContent--text{
+    position: relative;
+    margin-bottom: 1.7rem;
+    font-weight: 600;
+    color: #1d1d1d;
+    /* color: #000; */
+    /* opacity: .9; */
+    /* display: flex;
+    align-items: center; */
+    /* flex-direction: column; */
+}
+.visionContent--star{
+    position: absolute;
+    left: 0;
+    margin-top: .3rem;
+    width: 1.9rem;
+    height: 1.9rem;
+}
+.textSpecial-noUppercase{
+    color: var(--Main-color);
+    font-weight: 600;
+}
+.textSpecial{
+    /* padding-left: 3rem; */
+    color: var(--Main-color);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* start Lĩnh vực hoạt động */
+.activeMap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+.active--Title{
+    padding-top: 10rem;
+    background: url("../img/trangchu/backgroundAffterIntroduce.png") top center/ cover no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* height: 23.4rem; */
+    margin-bottom: 0;
+    padding-bottom: 4.4rem;
+}
+.activeMap__content{
+    justify-content: space-evenly;
+}
+.activeContent{
+    width: 27rem;
+}
+.activeBoxImg{
+    width: 100%;
+    background-color: rgb(214, 213, 213);
+    padding-top: 3.2rem;
+    border-radius: 1.3rem;
+    margin-bottom: 3rem;
+    position: relative;
+    height: 22rem;
+    box-shadow: -3px 0px 5px rgba(0,0,0,.4);
+}
+.activeMapImg{
+    width: 100%;
+    height: 101%;
+}
+.active--text{
+    font-size: 2.5rem;
+    color: var(--Main-color);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+}
+.activeBoxImg::after{
+    content: "";
+    position: absolute;
+    width: 1.3rem;
+    height: .2rem;
+    background-color: var(--white-color);
+    right: 1.9rem;
+    top: 1.3rem;
+    font-size: 2rem;
+    color: var(--white-color);
+}
+.activeBoxImg p{
+    position: absolute;
+    width: .9rem;
+    height: .9rem;
+    background-color: var(--white-color);
+    left: .7rem;
+    top: 1.3rem;
+    border-radius: 50%;
+    /* font-size: 2rem; */
+    color: var(--white-color);
+}
+.activeBoxImg p:nth-child(2){
+    margin-left: 1.1rem;
+}
+.activeBoxImg p:nth-child(3){
+    margin-left: 2.2rem;
+}
+
+
+/* end Lĩnh vực hoạt động */
+/* start richGroupIntroduce */
+.richGroupIntroduce{
+    margin-top: 8rem;
+    padding-top: 9.5rem;
+    padding-bottom: 10rem;
+    background: url("../img/trangchu/backIntroduce.png") top center/ cover no-repeat;
+}
+.richGroupIntroduce__Box{
+    justify-content: space-between;
+    padding: 0 9rem;
+}
+.richGroupIntroduce__Content{
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 23rem;
+    margin-bottom: 4rem;
+}
+.richGroupIntroduceIMG{
+    height: 12.5rem;
+    width: 12rem;
+}
+.richGroupIntroduce__Content:nth-child(2) .richGroupIntroduceIMG{
+    padding-top: 1.8rem;
+}
+.richGroupIntroduce__Content:nth-child(4) .richGroupIntroduceIMG{
+    padding-top: .7rem;
+}
+.richGroupIntroduce--img{
+
+}
+.richGroupIntroduce-Title{
+    font-size: 4.5rem;
+    margin-top: .5rem;
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+.richGroupIntroduce_imgContet{
+    font-size: 2.5rem;
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/* end richGroupIntroduce */
+/* start Tin tức sự kiện */
+.newEventClose{
+    display: none;
+}
+.newEventOpen{
+    display: block;
+}
+.newsEvent{
+    padding-top: 9rem;
+    padding-bottom: 10rem;
+    /* overflow: hidden; */
+}
+.newsEvent--Title{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.newsEvent_content{
+    width: 100%;
+}
+.newsEvent__nav{
+    background-color: var(--white-color);
+    height: 7rem;
+    border-bottom:solid 1.5rem var(--Main-color);
+}
+
+.newsEvent__list{
+    height: 100%;
+}
+.newsEvent__item:nth-child(1){
+    /* background-color: var(--Main-color); */
+}
+.newsEvent__item{
+    height: 100%;
+    width: 33.3333%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    color: #999797;
+    background-color: #f6f6f6;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.background__Checked{
+    background-color: var(--Main-color);
+    color: var(--white-color);
+    line-height: 7rem;
+    position: relative;   
+}
+.background__Checked::after{
+    content: "";
+    width: 100%;
+    height: .6rem;
+    background-color:var(--Main-color);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+}
+.newEvent__contentItem{
+    justify-content: space-between;
+    margin: 0 3rem;
+    padding-top: 4rem;
+}
+.contentItem__box{
+    width: 33.3333%;
+    margin: 0 -3rem;  
+}
+.newEvent--img{
+    width: 100%;
+}
+.boxContent_news{
+    border-top:solid 2rem #f6f6f6;
+    background-color: var(--white-color);
+    padding: 3rem 1.8rem 1.4rem 1.8rem;
+}
+.newsEvent--title{
+    font-size: 2rem;
+    line-height: 2.6rem;
+    color: #1d1d1d;
+    text-transform: uppercase;
+    border-bottom: solid .1rem #1d1d1d;
+    padding: 0 .8rem;
+    padding-bottom: .8rem;
+}
+.newEvent--titleContent{
+    padding: 0 .8rem;
+    padding-right: 0rem;
+    padding-top: 1.3rem;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #1d1d1d;
+    padding-bottom: 3.3rem;
+}
+.newEventTime{
+    display: flex;
+    justify-content: end;
+    padding-right: .8rem;
+}
+.timeClock{
+    margin-right: 3rem;
+}
+.timeDay{
+    margin-right: 1.5rem;
+    color: #1d1d1d;
+    font-size: 1.6rem;
+    position: relative;
+}
+.timeDay::after{
+    content: "";
+    position:absolute;
+    height: 1.7rem;
+    width: .1rem;
+    top: 0;
+    right: -1rem;
+    background-color: #1d1d1d;
+}
+.timeMore{
+    color: #1d1d1d;
+    font-size: 1.6rem;
+
+}
+/* End tin tức sự kiện */
+/* Dự án tiêu biểu */
+.projectRepresentative{
+    background-color: var(--white-color);
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.projectRepresentative__Box{
+
+}
+.projectRepresentative__nav{
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    margin: 0 3rem;
+}
+
+.projectTopic{
+    width: 33.333%;
+    background-color: #bcbcbc;
+    height: 7rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: #252525;
+    font-weight: 600;
+    margin: 0 -3rem;
+    cursor: pointer;
+    transition: .3s;
+}
+.TopicList{
+    margin: 0 3rem;
+    justify-content: space-between;
+}
+.Topic__ItemContent{
+    width: 33.3333%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin: 0 -3rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    padding: 2.5rem 1.8rem;
+    overflow: hidden;
+    background-color: #f7f5f6;
+    box-shadow: -1px 0px 5px rgba(0,0,0,.1);
+
+}
+.projectChecked{
+    background-color: var(--Main-color);
+    color: var(--white-color);
+}
+.boxContent_news{
+
+}
+.topicContnent{
+    color: #191201;
+    font-size: 2.5rem;
+    /* line-height: 5.8rem; */
+    text-align: center;
+    padding-top: 1.7rem;
+    padding-bottom: 3rem;
+}
+.TopicMoreButton{
+    background-color: #3184bf;
+    color: var(--white-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: 34rem;
+    height: 7.5rem;
+    text-transform: uppercase;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 3rem;
+    transition: .3s;
+}
+.TopicMoreButton:hover{
+    background-color: #6ab3e7;
+}
+.MoreButton-none{
+    display: none;
+}
+.topicMore{
+    margin: 0 0rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.OpenTopic{
+    display: flex;
+}
+.TopicClose{
+    display: none;
+}
+/* Dự án tiêu biểu */
+
+/* Đối tác */
+.continerPartner{
+    padding-bottom: 10rem;
+    padding-top: 8rem;
+}
+
+.partnerList{
+    justify-content: space-evenly;
+}
+.partnerRich{
+    background-color: var(--white-color);
+    width: 26rem;
+    height: 16.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid .1rem #ccc;
+    margin-bottom: 4rem;
+    cursor: pointer;
+}
+.partnerRich--link{
+    /* width: 100%; */
+    /* height: 100%; */
+    padding: auto;
+}
+.parnerRich--img{
+    /* width: 100%; */
+    
+}
+/* End Đối tác */

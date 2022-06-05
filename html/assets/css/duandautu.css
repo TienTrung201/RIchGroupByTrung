@@ -1,0 +1,141 @@
+.Continer{
+    padding-top: 10rem;
+    background-color: #f6f6f6;
+}
+.Continer__Introduce{
+    padding-bottom: 5rem;
+}
+.Continer__Introduce--text{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    text-align: justify;
+    color: #1d1d1d;
+}
+.continerMain{
+
+}
+.continer__mainContent{
+    
+}
+.continer__mainContent--title{
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    color: var(--Main-color);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    /* width: 37rem; */
+    min-width: 100%;
+    /* border-bottom:solid 2rem var(--Main-color) ; */
+    padding-bottom: 2.2rem;
+    position: relative;
+}
+.continer__mainContent--title::before{
+    content: "";
+    width: 37rem;
+    height: .2rem;
+    background-color:#cccccc ;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.continer__mainContent--title::after{
+    content: "";
+    width: 17rem;
+    height: .8rem;
+    background-color:var(--Main-color) ;
+    border-radius: .5rem;
+    position: absolute;
+    bottom: -.3rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.continer__box{
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+.continer__box--content{
+    padding: 4rem 2.5rem 3rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white-color);
+    margin: 0 -3rem;
+    margin-bottom: 6rem;
+
+}
+.BoxImg__continer{
+    padding: 5rem 2.5rem 5.5rem 2.5rem;
+    background-color: #ebebeb;
+    margin-bottom: 2rem;
+    position: relative;
+    
+}
+
+.continer__box--img{
+    width: 100%;
+    transition: .3s;
+}
+.continer__box--text{
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 600;
+    color: #1d1d1d;
+    font-weight: 4rem;
+    text-align: center;
+}
+.continer__box--content:hover .BoxOverlay__img{
+    display: flex;
+    opacity: 1;
+}
+.continer__box--content:hover .continer__box--img{
+    /* animation: scal linear .3s; */
+    transform: scale(1.1);
+}
+.BoxOverlay__img{
+    position: absolute;
+    background-color: rgba(32, 32, 32, .5);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    display: none;
+    opacity: 0;
+    animation: opacity linear .3s;
+}
+/* @keyframes scal{
+    from{
+        transform: scale(1);
+    }
+    to{
+        
+    }
+} */
+@keyframes opacity{
+    from{
+    opacity: 0;
+        
+    }
+    to{
+        opacity: 1;
+
+    }
+}
+.learnMore__Infomation{
+    font-weight: 600;
+    font-size: 2rem;
+    width: 21rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+    border: solid .1rem var(--white-color);
+    text-transform: uppercase;
+}

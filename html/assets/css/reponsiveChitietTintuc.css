@@ -1,0 +1,104 @@
+/* PC */
+@media only screen and (min-width: 1224px) {
+    
+}
+
+
+@media only screen and (max-width: 1223px) {
+    .mainContiner {
+        padding-top:3rem;
+        justify-content: space-between;
+    }
+    .hotlineTitle{
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+        margin-left: .2rem;
+    }
+    .contactHotline{
+        padding-left: 1rem;
+    }
+}
+
+ 
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .contactHotline{
+        display: flex;
+        background-color: var(--Main-color);
+        color: var(--white-color);
+        text-transform: uppercase;
+        align-items: center;
+        /* justify-content: center; */
+        height: 7.7rem;
+        position: relative;
+        padding-left: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    .hotlineTitle{
+        font-size: 1.5rem;
+        line-height: 3rem;
+        margin-left: 2rem;
+    }
+}
+
+
+@media only screen and (max-width: 740px){
+    .networkContent{
+        display: flex;
+        margin-top: .7rem !important;
+    }
+    .netWorkContiner{
+        /* flex-direction: column-reverse; */
+    }
+    .continerContact{
+        flex-wrap: wrap-reverse;
+    }
+    
+    
+    .contactHotline{
+        display: flex;
+        background-color: var(--Main-color);
+        color: var(--white-color);
+        text-transform: uppercase;
+        align-items: center;
+        /* justify-content: center; */
+        height: 7.7rem;
+        position: relative;
+        padding-left: .2rem;
+        margin-bottom: 2rem;
+        margin: 0 -1.5rem;
+        width: 33.333%;
+        justify-content: center;
+
+    }.contactNews{
+        width: 100%;
+        padding-left: 0;
+        /* display: flex; */
+    }.contacts{
+        width: 100%;
+        padding-top: 2rem;
+        display: flex;
+        margin: 0 1.5rem;
+        justify-content: space-between;
+    }
+    .hotlineTitle{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        margin-left: .3rem;
+    }
+    .hotlinePerson{
+        height: 2rem;
+        width: 2rem;
+        /* display: none; */
+    }
+    .newsAll{
+    
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .sendQuestion{
+        padding-top: 4rem;
+        padding-bottom: 5rem;
+    }
+}

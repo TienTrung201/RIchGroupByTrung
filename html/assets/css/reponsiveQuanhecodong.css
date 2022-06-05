@@ -1,0 +1,37 @@
+
+/* PC */
+@media only screen and (min-width: 1224px) {
+    
+}
+
+
+@media only screen and (max-width: 1239px) {
+
+}
+
+ 
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .continer__Relation{
+        display: none;
+    }
+    .continerRelation__open{
+        display: flex;
+    }  
+
+    
+}
+
+
+@media only screen and (max-width: 740px){
+    .Continer{
+        padding-top: 5rem;
+        background-color: #f6f6f6;
+        padding-bottom: 5rem;
+    }.continer__Relation{
+        display: none;
+    }
+    .continerRelation__open{
+        display: flex;
+    }  
+
+}
