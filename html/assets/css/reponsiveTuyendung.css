@@ -43,69 +43,70 @@
         flex-direction: column;
     }
     
-/*end news */
-table{
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 1.2rem;
-    line-height: 2rem;
-}
-tr th,
-tr td{
-    height: 4.5rem;
-    border-top: solid .1rem #acacac;
-}
-tr th{
-    border-top: solid .3rem #acacac;
-}
-tr th:nth-child(1),
-tr td:nth-child(1){
-    width: 9rem;
-    padding-left: 1.5rem;
-    /* background-color: aqua; */
-    text-align: left;
-}
-tr th:nth-child(2),
-tr td:nth-child(2){
-    width: 60.5rem;
-    padding-left: 1.5rem;
-    text-align: left;
+    /*end news */
+    table{
+        margin-top: 2rem;
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    tr th,
+    tr td{
+        height: 4.5rem;
+        border-top: solid .1rem #acacac;
+    }
+    tr th{
+        border-top: solid .3rem #acacac;
+    }
+    tr th:nth-child(1),
+    tr td:nth-child(1){
+        width: 9rem;
+        padding-left: 1.5rem;
+        /* background-color: aqua; */
+        text-align: left;
+    }
+    tr th:nth-child(2),
+    tr td:nth-child(2){
+        width: 60.5rem;
+        padding-left: 1.5rem;
+        text-align: left;
 
-}
-tr th:nth-child(3),
-tr td:nth-child(3){
-    width: 18rem;
-    padding-left: 1.5rem;
-    text-align: left;
-}
-tr th:nth-child(4),
-tr td:nth-child(4){
-    width: 18rem;
-    text-align: center;
-}
-.newsImg{
-    flex-direction: column;
-    margin-bottom: 4rem;
-    width: 100%;
-    /* height: 20%; */
-}
+    }
+    tr th:nth-child(3),
+    tr td:nth-child(3){
+        width: 18rem;
+        padding-left: 1.5rem;
+        text-align: left;
+    }
+    tr th:nth-child(4),
+    tr td:nth-child(4){
+        width: 18rem;
+        text-align: center;
+    }
+    .newsImg{
+        flex-direction: column;
+        margin-bottom: 4rem;
+        width: 100%;
+        /* height: 20%; */
+    }
 
-.news--Img{
-    width: 100%;
-    height: 30rem;
-}
-.newsContent{
-    padding-top: 1rem;
-    padding-left: 0rem;
-}
-.imgTitle{
-    font-size: 1.8rem;
-    line-height: 2.5rem;
-    color: #3a3a3a;
-}
-.imgContentTitle{
-    font-size: 1.6rem;
-    line-height: 2.8rem;
-    color: #8a8a8a;
-}
+    .news--Img{
+        width: 100%;
+        height: 30rem;
+    }
+    .newsContent{
+        padding-top: 1rem;
+        padding-left: 0rem;
+    }
+    .imgTitle{
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        color: #3a3a3a;
+    }
+    .imgContentTitle{
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+        color: #8a8a8a;
+    }
 }
