@@ -67,7 +67,7 @@ body{
     color: #6f7684;
     height: 100%;
     /* padding: 0 .8rem 0 .8rem; */
-    padding-right: .8rem;
+    padding-right: 1rem;
     padding-left: 1rem;
     padding-bottom: .0rem;
     display: flex;
@@ -80,7 +80,7 @@ body{
     font-size: 1.4rem;
     height: 104%;
     /* padding: 0 .8rem 0 .8rem; */
-    padding-right: .8rem;
+    padding-right:1rem;
     padding-left: 1rem;
     padding-bottom: .2rem;
     display: flex;
